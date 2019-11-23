@@ -1,4 +1,4 @@
-package com.example.mytest;
+package com.example.button;
 
 import org.junit.Test;
 
