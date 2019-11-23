@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout0"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text= "@string/testViewValue1"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvOut"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="150dp">
+        </TextView>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:id="@+id/btnOk"
+            android:text="@string/testViewValue2"
+            android:textSize="16sp"
+            android:layout_width="100dp">
+        </Button>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:id="@+id/btnCancel"
+            android:text="@string/testViewValue3"
+            android:textSize="16sp"
+            android:layout_width="100dp">
+        </Button>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_margin="5dp"
+            android:id="@+id/chbExtMenu"
+            android:text= "@string/checkView">
+        </CheckBox>
+
+    </LinearLayout>
+</LinearLayout>
