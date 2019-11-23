@@ -1,4 +1,4 @@
-package com.example.losst;
+package com.example.layoutparams;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.losst", appContext.getPackageName());
+        assertEquals("com.example.layoutparams", appContext.getPackageName());
     }
 }

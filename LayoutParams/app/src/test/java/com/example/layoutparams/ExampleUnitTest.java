@@ -1,4 +1,4 @@
-package com.example.losst;
+package com.example.layoutparams;
 
 import org.junit.Test;
 
