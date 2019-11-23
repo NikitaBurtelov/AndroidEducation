@@ -1,4 +1,4 @@
-package com.example.button;
+package com.example.button_activity;
 
 import org.junit.Test;
 
