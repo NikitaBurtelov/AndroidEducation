@@ -31,6 +31,14 @@
         android:progress="3"
         android:id="@+id/sbColor">
     </SeekBar>
+    <TextView
+        android:id="@+id/valueTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:text="Value"/>
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"

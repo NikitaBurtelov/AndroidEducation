@@ -8,12 +8,14 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener {
 
     SeekBar sbWeight, sbColor;
     Button btn1, btn2;
     Color bgColor;
+    TextView valueTv;
 
     LinearLayout screen;
 
@@ -36,9 +38,10 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
     btn1 = findViewById(R.id.btn1);
     btn2 = findViewById(R.id.btn2);
 
+    valueTv = findViewById(R.id.valueTv);
+
     lParams1 = (LinearLayout.LayoutParams) btn1.getLayoutParams();
     lParams2 = (LinearLayout.LayoutParams) btn2.getLayoutParams();
-
     }
 
     @Override
@@ -62,10 +65,11 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         else if (idSeekBar == R.id.sbColor)
         {
             int leftColor = sbColor.getProgress();
+            valueTv.setText(String.valueOf(leftColor));
             System.out.println(leftColor);
             //int RightColor = seekBar.getMax() - progress;
             if (leftColor != 0)
-                screen.setBackgroundColor(0xffffffff - leftColor * 0x100);
+                screen.setBackgroundColor(0xffffffff - leftColor * 0x0202);
         }
     }
 
