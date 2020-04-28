@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LogAndMess</string>
+    <string name="testViewValue1">Кто не пришел на физру ?</string>
+    <string name="testViewValue2">Он</string>
+    <string name="testViewValue3">Cansel</string>
+    <string name="checkView">расширенное меню</string>
+</resources>
